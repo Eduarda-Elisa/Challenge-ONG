@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG TinieBird Cats - Home</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script defer src="./scripts/script.js"></script>
+    <link rel="shortcut icon" type="imagex/png" href="./assets/header/catlogo.png">
+
+</head>
+
+<body>
+    <a class="buttonwpp" href="https://w.app/2fXlUQ" target="_blank"><img src="./assets/whatsapp.png" alt=""></a>
+    <header>
+        <div class="logo">
+            <img class="logo__img" src="./assets/header/catlogo.png" alt="Logo Header">
+            <div class="logo__text">
+                <p>Ong</p>
+                <div class="logo__text__color">
+                    <span class="logo__text__color__pink">Tinie</span>
+                    <span class="logo__text__color__pink__Blue">Bird</span>
+                </div>
+                <p>Cats</p>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <dt><img src="./assets/header/pawPink.png" alt=""><a href="#home">Home</a></dt>
+                <dt><img src="./assets/header/pawPink.png" alt=""><a href="#about">Sobre</a></dt>
+                <dt><img src="./assets/header/pawPink.png" alt=""><a href="#contribute">Quero Ajudar</a></dt>
+                <dt><img src="./assets/header/pawPink.png" alt=""><a href="">Notícias</a></dt>
+                <dt><img src="./assets/header/pawPink.png" alt=""><a href="#contact">Contato</a></dt>
+            </ul>
+        </nav>
+        <button>Quero adotar<img src="./assets/iconpatabranca.png" alt=""></button>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home__background">
+                <img class="home__background__v" src="./assets/home/sub1.png" alt="">
+                <img class="home__background__v__sub" src="./assets/home/sub2.png" alt="">
+                <img class="home__background__sub" src="./assets/home/backgroundsub.png" alt="">
+                <img class="home__background__pink" src="./assets/home/Backgroundpink.png" alt="">
+                <img class="home__background__cat" src="./assets/home/backgroundcat.png" alt="">
+                <img class="home__background__linepink" src="./assets/linepink.png" alt="">
+            </div>
+            <div class="home__container">
+                <h1>Doe amor.</h1>
+                <h1>doe o seu lar!</h1>
+                <h1>Adote um gatinho</h1>
+                <button>Quero adotar<img src="./assets/iconpatabranca.png" alt=""></button>
+            </div>
+        </section>
+
+        <section class="contribute" id="contribute">
+            <div class="contribute__text">
+                <button>Apoie e faça a sua parte</button>
+                <h1>Apoie e colabore para que<br>mais gatinhos encontre uma família</h1>
+            </div>
+            <div class="contribute__container">
+                <div class="contribute__container__topleft">
+                    <p><b>+1.2</b> mil gatinhos<br>adotados em 2024</p>
+                    <div class="contribute__container__topleft__img">
+                        <img src="./assets/contribute/Ellipse 138.png" alt="">
+                        <img src="./assets/contribute/catwhite.png" alt="">
+                        <img class="contribute__container__topleft__linepink" src="./assets/linepink.png" alt="">
+                    </div>
+                </div>
+                <div class="contribute__container__topright">
+                    <div class="contribute__container__topright__img">
+                        <img src="./assets/contribute/Ellipse 138.png" alt="">
+                        <img src="./assets/contribute/maopata.png" alt="">
+                        <img class="contribute__container__topright__linepink" src="./assets/linepink.png" alt="">
+                    </div>
+                    <p><b>+305</b> protetores<br>apoiados durante o ano</p>
+                </div>
+                <div class="contribute__container__bottomleft">
+                    <p><b>+80</b> toneladas de ração<br>doadas desde 2023</p>
+                    <div class="contribute__container__bottomleft__img">
+                        <img src="./assets/contribute/Ellipse 138.png" alt="">
+                        <img src="./assets/contribute/raçao.png" alt="">
+                        <img class="contribute__container__bottomleft__linepink" src="./assets/linepink.png" alt="">
+                    </div>
+                </div>
+                <div class="contribute__container__bottomright">
+                    <div class="contribute__container__bottomright__img">
+                        <img src="./assets/contribute/Ellipse 138.png" alt="">
+                        <img src="./assets/contribute/tesoura.png" alt="">
+                        <img class="contribute__container__bottomright__linepink" src="./assets/linepink.png" alt="">
+                    </div>
+                    <p><b>+2.1</b> castrações<br>de gatos realizadas</p>
+                </div>
+                <div class="contribute__container__circle">
+                    <div class="contribute__container__circle__center">
+                        <div class="contribute__container__circle__center__background">
+                            <img class="contribute__container__circle__center__background__sub" src="./assets/contribute/circlesub.png" alt="">
+                            <img class="contribute__container__circle__center__background__pink" src="./assets/contribute/circlepink.png" alt="">
+                        </div>
+                        <div class="contribute__container__circle__center__box">
+                            <img class="contribute__container__circle__center__box__imgcat" src="./assets/contribute/catwhitepink.png" alt="">
+                            <p>Mais de <b>5.4mil gatinhos adotados</b><br> desde 2016 em todo o Brasil.</p>
+                            <img class="contribute__container__circle__center__box__imgpaw" src="./assets/patabranca.png" alt="">
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <button class="contribute__button">Apoie agora mesmo <img src="./assets/patabranca.png" alt=""></button>
+        </section>
+        
+        <section class="adoption">
+            <h1>Gatos para adoção</h1>
+            <form>
+                <select class="adoption__selectstate" name="" id="" onchange="fetchApiIbgeLocation()">
+                    <option value="" disabled selected hidden>Estado:</option>
+                    <option value="AC">Acre (AC)</option>
+                    <option value="AL">Alagoas (AL)</option>
+                    <option value="AP">Amapá (AP)</option>
+                    <option value="AM">Amazonas (AM)</option>
+                    <option value="ba">Bahia (BA)</option>
+                    <option value="CE">Ceará (CE)</option>
+                    <option value="DF">Distrito Federal (DF)</option>
+                    <option value="ES">Espírito Santo (ES)</option>
+                    <option value="GO">Goiás (GO)</option>
+                    <option value="MA">Maranhão (MA)</option>
+                    <option value="MT">Mato Grosso (MT)</option>
+                    <option value="MS">Mato Grosso do Sul (MS)</option>
+                    <option value="MG">Minas Gerais (MG)</option>
+                    <option value="PA">Pará (PA)</option>
+                    <option value="PB">Paraíba (PB)</option>
+                    <option value="PR">Paraná (PR)</option>
+                    <option value="PE">Pernambuco (PE)</option>
+                    <option value="PI">Piauí (PI)</option>
+                    <option value="RJ">Rio de Janeiro (RJ)</option>
+                    <option value="RN">Rio Grande do Norte (RN)</option>
+                    <option value="RS">Rio Grande do Sul (RS)</option>
+                    <option value="RO">Rondônia (RO)</option>
+                    <option value="RR">Roraima (RR)</option>
+                    <option value="SC">Santa Catarina (SC)</option>
+                    <option value="SP">São Paulo (SP)</option>
+                    <option value="SE">Sergipe (SE)</option>
+                    <option value="TO">Tocantins (TO)</option>
+                </select>
+
+                <select class="adoption__selectcity" name="" id="">
+                    <option value="" disabled selected hidden>Cidade:</option>
+                </select>
+
+                <select name="" id="">
+                    <option value="" disabled selected hidden>Gênero:</option>
+                    <option value="M">Macho</option>
+                    <option value="F">Fêmea</option>
+                </select>
+                <button>Buscar <img src="./assets/patabranca.png" alt=""></button>
+            </form>
+            <div class="adoption__container">
+                <div class="adoption__container__carousel">
+
+                 <!-- CARDS GERADOS POR JAVASCRIPT -->
+
+                </div>
+            </div>
+            <button class="adoption__btn">Ver Todos <img src="./assets/patabranca.png" alt=""></button>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about__background">
+                <img src="./assets/about/background-sub.png" alt="">
+                <img class="about__background__one" src="./assets/about/background.png" alt="">
+            </div>
+
+            <h1 class="about__title">Conheça a ONG TinieBird Cats</h1>
+            <p class="about__subtitle">
+                Existem muitos <b>gatos a espera de um lar</b> e com muito amor para oferecer. Nós fazemos essa ponte<br>
+                 para que você adote um amigo e faça a diferença na vida de um animal carente.
+            </p>
+            <div class="about__container">
+
+                <div class="about__container__cat">
+                    <img src="./assets/about/cat.png" alt="">
+                </div>
+
+                <div class="about__container__card">
+                    <span class="about__container__card__solid"></span>
+                    <span class="about__container__card__gradient"></span>
+                    <p>Como Tudo Começou</p>
+                    <img src="./assets/about/left-arrow.png" alt="">
+                </div>
+
+                <div class="about__container__timeline">
+
+                    <div class="about__container__timeline__left">
+                        <div class="about__container__timeline__left__one">
+                            <div class="about__container__timeline__left__one__top">
+                                <h1>2016</h1>
+                                <div>
+                                    <img src="./assets/contribute/circlepink.png" alt="">
+                                    <img src="./assets/patabranca.png" alt="">
+                                </div>
+                                <span></span>
+                            </div>
+                            <div class="about__container__timeline__left__one__bottom">
+                                <p>Primeira Adoção Independente</p>
+                                <img src="./assets/about/handpaw.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="about__container__timeline__left__two">
+                            <div class="about__container__timeline__left__two__top">
+                                <h1>2018</h1>
+                                <div>
+                                    <img src="./assets/contribute/circlepink.png" alt="">
+                                    <img src="./assets/patabranca.png" alt="">
+                                </div>
+                                <span></span>
+                            </div>
+                            <div class="about__container__timeline__left__two__bottom">
+                                <p>Primeira Adoção Independente</p>
+                                <img src="./assets/about/handpaw.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <span></span>
+
+                    <div class="about__container__timeline__right">
+                        <div class="about__container__timeline__right__one">
+                            <div class="about__container__timeline__right__one__top">
+                                <span></span>
+                                <div>
+                                    <img src="./assets/contribute/circlepink.png" alt="">
+                                    <img src="./assets/patabranca.png" alt="">
+                                </div>
+                                <h1>2017</h1>
+                            </div>
+                            <div class="about__container__timeline__right__one__bottom">
+                                <img src="./assets/about/catblue.png" alt="">
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+
+                        <div class="about__container__timeline__right__two">
+                            <div class="about__container__timeline__right__two__top">
+                                <span></span>
+                                <div>
+                                    <img src="./assets/contribute/circlepink.png" alt="">
+                                    <img src="./assets/patabranca.png" alt="">
+                                </div>
+                                <h1>2019</h1>
+                                
+                            </div>
+                            <div class="about__container__timeline__right__two__bottom">
+                                <img src="./assets/about/catblue.png" alt="">
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button>Saiba mais <img src="./assets/patabranca.png" alt=""></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions">
+            <img class="questions__paw__top" src="./assets/patabranca.png" alt="">
+            <img src="./assets/questions/question.png" alt="">
+            <h1 class="questions__title">Perguntas Frequentes</h1>
+            <div class="questions__container">
+                <div class="questions__container__one">
+                    <div class="questions__container__one__question" onclick="visibleAnswer('questions__container__one__answer')">
+                        <p>Como posso adotar um gatinho?</p>   
+                        <span><img src="./assets/questions/down-arrow.png" alt=""></span>
+                    </div>
+                    <div class="questions__container__one__answer" onclick="hiddenAnswer('questions__container__one__answer')">
+                        <div>
+                            <p>Como posso adotar um gatinho?</p>   
+                            <span><img src="./assets/questions/top-arrow.png" alt=""></span>
+                        </div>
+                        <p class="questions__container__one__answer__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pharetra tellus ut erat consequat auctor integer nulla nunc
+                            dolor sit amet, consectetur adipiscing elit. Donec
+                        </p>
+                    </div>
+                </div>
+
+                <div class="questions__container__two">
+                    <div class="questions__container__two__question" onclick="visibleAnswer('questions__container__two__answer')">
+                        <p>As adoções são gratuitas?</p>   
+                        <span><img src="./assets/questions/down-arrow.png" alt=""></span>
+                    </div>
+                    <div class="questions__container__two__answer" onclick="hiddenAnswer('questions__container__two__answer')">
+                        <div>
+                            <p>As adoções são gratuitas?</p>   
+                            <span><img src="./assets/questions/top-arrow.png" alt=""></span>
+                        </div>
+                        <p class="questions__container__two__answer__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pharetra tellus ut erat consequat auctor integer nulla nunc
+                            dolor sit amet, consectetur adipiscing elit. Donec
+                        </p>
+                    </div>
+                </div>
+
+                <div class="questions__container__three">
+                    <div class="questions__container__three__question" onclick="visibleAnswer('questions__container__three__answer')">
+                        <p>Os gatos para adoção são castrados?</p>   
+                        <span><img src="./assets/questions/down-arrow.png" alt=""></span>
+                    </div>
+                    <div class="questions__container__three__answer" onclick="hiddenAnswer('questions__container__three__answer')">
+                        <div>
+                            <p>Os gatos para adoção são castrados?</p>   
+                            <span><img src="./assets/questions/top-arrow.png" alt=""></span>
+                        </div>
+                        <p class="questions__container__three__answer__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pharetra tellus ut erat consequat auctor integer nulla nunc
+                            dolor sit amet, consectetur adipiscing elit. Donec
+                        </p>
+                    </div>
+                </div>
+
+                <div class="questions__container__four">
+                    <div class="questions__container__four__question" onclick="visibleAnswer('questions__container__four__answer')">
+                        <p>O que preciso saber antes de adotar um gato?</p>   
+                        <span><img src="./assets/questions/down-arrow.png" alt=""></span>
+                    </div>
+                    <div class="questions__container__four__answer" onclick="hiddenAnswer('questions__container__four__answer')">
+                        <div>
+                            <p>O que preciso saber antes de adotar um gato?</p>   
+                            <span><img src="./assets/questions/top-arrow.png" alt=""></span>
+                        </div>
+                        <p class="questions__container__four__answer__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pharetra tellus ut erat consequat auctor integer nulla nunc
+                            dolor sit amet, consectetur adipiscing elit. Donec
+                        </p>
+                    </div>
+                </div>
+
+                <div class="questions__container__five">
+                    <div class="questions__container__five__question" onclick="visibleAnswer('questions__container__five__answer')">
+                        <p>Como fazer a adaptação em casa de um gato adotado?</p>   
+                        <span><img src="./assets/questions/down-arrow.png" alt=""></span>
+                    </div>
+                    <div class="questions__container__five__answer" onclick="hiddenAnswer('questions__container__five__answer')">
+                        <div>
+                            <p>Como fazer a adaptação em casa de um gato adotado?</p>   
+                            <span><img src="./assets/questions/top-arrow.png" alt=""></span>
+                        </div>
+                        <p class="questions__container__five__answer__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pharetra tellus ut erat consequat auctor integer nulla nunc
+                            dolor sit amet, consectetur adipiscing elit. Donec
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <img class="questions__sub" src="./assets/questions/backgroundsub.png" alt="">
+            <img class="questions__paw__bottom" src="./assets/patabranca.png" alt="">
+        </section>
+
+        <section class="feedback">
+
+            <div class="feedback__text">
+                <h1 class="feedback__text__title">Depoimentos</h1>
+                <p class="feedback__text__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra tellus ut erat consequat auctor integer nulla nunc.</p>
+            </div>
+
+            <div class="feedback__container">
+                <img class="feedback__container__background" src="./assets/feedback/depoiments.png" alt="">
+                <button onclick="scrollFeedbackLeft()">&#8249;</button>
+                <div class="feedback__container__box">
+                    <div class="feedback__container__box__carousel">
+                       
+                        <!-- GERADO PELO JS -->
+
+                    </div>
+                </div>
+                <button onclick="scrollFeedbackRight()">&#8250;</button>
+            </div>
+        </section>
+
+        <section class="partners">
+            <h1>Nossos parceiros</h1>
+            <img class="partners__line" src="./assets/partners/partners.png" alt="">
+            <div class="partners__imgs">
+                <img src="./assets/partners/image1.png" alt="">
+                <img src="./assets/partners/image2.png" alt="">
+                <img src="./assets/partners/image3.png" alt="">
+                <img src="./assets/partners/image4.png" alt="">
+                <img src="./assets/partners/image5.png" alt="">
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact__background">
+                <img class="contact__background__blue" src="./assets/contact/background-blue.png" alt="">
+                <img class="contact__background__arrow" src="./assets/contact/background-arrow.png" alt="">
+                <img class="contact__background__line" src="./assets/contact/line2.png" alt="">
+            </div>
+            <div class="contact__container">
+                <div class="contact__container__left">
+                    <h1>Fale conosco<br> agora mesmo </h1>
+                    <img src="./assets/contact/arrow-down.png" alt="">
+                    <form action="submit">
+                        <input type="text" placeholder="Nome:" required>
+                        <input type="text" placeholder="E-mail:" required>
+                        <input type="text" placeholder="Celular:" required>
+                        <textarea name="" id="" placeholder="Mensagem:" required></textarea>
+                        <button>Enviar mensagem <img src="./assets/patabranca.png" alt=""></button>
+                    </form>
+                </div>
+                <div class="contact__container__right">
+                    <img src="./assets/contact/cat.png" alt="">
+                    <img class="contact__container__right__line" src="./assets/contact/line1.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h1 class="footer__title">Ainda tem dúvidas?</h1>
+        <div class="footer__cards">
+            <div class="footer__cards__email">
+                <div>
+                    <img src="./assets/footer/email.png" alt="">
+                    <h1>Por e-mail</h1>
+                    <p>Envie a sua mensagem e<br> responderemos em até 2 dias úteis</p>
+                    <a class="footer__cards__email__text">contato@ongtiniebirdcats.com.br</a>
+                </div>
+            </div>
+
+            <div class="footer__cards__wpp">
+                <div>
+                    <img src="./assets/footer/wpp.png" alt="">
+                    <h1>Por Whatsapp</h1>
+                    <p class="footer__cards__wpp__text">Chame no (13) 91234-5678</p>
+                </div>
+            </div>
+
+            <div class="footer__cards__media">
+                <div>
+                    <img src="./assets/footer/Shapes/heart.png" alt="">
+                    <h1>Redes sociais</h1>
+                    <p>Utilize nossas redes para entrar em<br> contato conosco! </p>
+                    <div class="footer__cards__media__icons">
+                        <img src="./assets/footer/instagram.png" alt="">
+                        <img src="./assets/footer/facebook.png" alt="">
+                        <img src="./assets/footer/youtube.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="footer__newsletter">Newsletter</h1>
+        <p class="footer__newsletter__sub">Quer receber nossas dicas e novidades? Cadastre-se agora</p>,
+        <div class="footer__sendemail">
+            <button>&#8594;</button>
+            <input type="text" placeholder="Digite seu e-mail">
+        </div>
+    </footer>
+</body>
+
+</html>
